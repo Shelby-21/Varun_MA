@@ -19,7 +19,7 @@ def load_data():
     try:
         # NOTE: Using 'loan_default.csv' for robust Streamlit Cloud deployment
         # Ensure 'loan_default.csv' is committed to your GitHub repository!
-        df = pd.read_excel('loan_default.xlsx') 
+        df = pd.read_excel('Loan_Varun.xlsx') 
         return df
     except FileNotFoundError:
         st.error("File 'loan_default.csv' not found. Please ensure the CSV data file is in the repository.")
